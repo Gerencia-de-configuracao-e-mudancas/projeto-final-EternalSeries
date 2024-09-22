@@ -1,1 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Fay9ZpcF)
+# EternalSeries
+Este projeto é um site simples que permite aos usuários explorar séries. As series são carregados de uma API e exibidos com suas informações, como título, imagem do pôster, genero e sinopse.
+
+## Colaboradores
+* Mateus Augusto
+* Francisco de Assis
+  
+
+## Funcionalidades
+* Busca por series: Pesquisar series por nome e obtenha detalhes como capa, sinopse, generos  e titulo.
+* Paginação: navegue pelos resultados de series com controle de paginação.
+* Detalhes das series: cada serie possui uma página de detalhes onde são exibidas informações completas sobre ele.
+
+## Tecnologias usadas
+* HTML, CSS, JavaScript, 
