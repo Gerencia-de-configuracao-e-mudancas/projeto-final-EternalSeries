@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EternalSeries</title>
+</head>
+<body>   
+    <header>
+        <div class="logo">
+            <a href="index.html"><button><h1>EternalSeries</h1></button></a>
+        </div>
+        <nav>
+            <ul>              
+                <form id="formBusca">
+                    <input type="text" id="inputBusca" placeholder="Digite o nome da série" required class="barra">
+                    <button type="submit" class="busca" >Buscar</button>
+                </form>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="paginacao"></div>
+        <section class="conteudo">
+           
+            <div id="seriesContainer"></div>
+            <div id="paginationControls" style="display: none;">
+                <button onclick="mudarPagina(-1)">Anterior</button>
+                <span id="paginaAtual">1</span>
+                <button onclick="mudarPagina(1)">Próxima</button>
+            </div>
+        </section>
+
+   
+    
+        <h3 class="destaque">Destaque da semana</h3>
+        <section class="banner">
+            
+           
+            <div class="banner-content">
+                <div class="imagem"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/1239.jpg" alt="The Mentalist">
+                </div>
+                 <div class="infor-container">
+                    <h1 class="title">The Mentalist</h1>
+                  
+                    <p class="genres"><span>Generos:</span> Drama | Crime | Mistério</p>
+                    
+                    <p class="synopsis"><span class="negrito">Sinopse:</span> 
+                        Patrick Jane, um consultor independente do California Bureau of Investigation (CBI), tem um histórico notável de solucionar crimes sérios usando suas habilidades de observação afiadas. Dentro do Bureau, Jane é notório por sua flagrante falta de protocolo e seu passado de semi-celebridade como médium psíquico, cujas habilidades paranormais ele agora admite ter fingido. A séria agente sênior Teresa Lisbon resiste abertamente a ter Jane em sua unidade e alterna entre reconhecer relutantemente a utilidade de Jane e detoná-lo por sua teatralidade, narcisismo e perigosa falta de limites. A equipe de Lisbon inclui os agentes Kimball Cho, Wayne Rigsby e a novata Grace Van Pelt, que acham que Jane é um canhão solto, mas admiram seu charme e talento para resolver casos.
+                    </p>
+                </div>
+               
+            </div>
+        </section>
+   
+    
+
+        <section class="divSeries">
+            <h3>Ação</h3>
+           
+               
+                <div class="filme-grid">
+                     
+                    <a href="series-ação/serie-1.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/78/195951.jpg" alt="Black Sails" class="filme"></a>
+                    <a href="series-ação/serie-2.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/1/2786.jpg" alt="Crisis" class="filme"></a>
+                    <a href="series-ação/serie-3.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/55/138044.jpg" alt="The Tomorrow People" class="filme"></a>
+                    <a href="series-ação/serie-4.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/55/138043.jpg" alt="Revolution" class="filme"></a>
+                    <a href="series-ação/serie-5.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/775.jpg" alt="Dominion" class="filme"></a>
+                    <a href="series-ação/serie-6.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/1904.jpg" alt="Heroes" class="filme"></a>
+
+                    
+                </div>
+                
+           
+        </section>
+
+        <section class="divSeries">
+            <h3>Drama</h3>
+           
+                <div class="filme-grid">
+                   
+                    <a href="series-drama/serie-1.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/808.jpg" alt="Justified" class="filme"></a>
+                    <a href="series-drama/serie-2.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/862.jpg" alt="Gracepoint" class="filme"></a>
+                    <a href="series-drama/serie-3.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/127/319360.jpg" alt="Once Upon a Time" class="filme"></a>
+                    <a href="series-drama/serie-4.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/43/109527.jpg" alt="House" class="filme"></a>
+                    <a href="series-drama/serie-5.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/34/86184.jpg" alt="Transparent" class="filme"></a>
+                    <a href="series-drama/serie-6.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/1389.jpg" alt="Lost" class="filme"></a>
+
+                </div>
+              
+        </section>
+
+        <section class="divSeries">
+            <h3>Comédia</h3>
+           
+               
+                <div class="filme-grid">
+
+                
+                    <a href="series-comedia/serie-1.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/678.jpg" alt="Bad Judge" class="filme"></a>
+                    <a href="series-comedia/serie-2.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/641.jpg" alt="Family Guy" class="filme"></a>
+                    <a href="series-comedia/serie-3.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/639.jpg" alt="The Simpsons" class="filme"></a>
+                    <a href="series-comedia/serie-4.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/441.jpg" alt="Red Band Society" class="filme"></a>
+                    <a href="series-comedia/serie-5.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/58/145621.jpg" alt="The Big Bang Theory" class="filme"></a>
+                    <a href="series-comedia/serie-6.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/547.jpg" alt="The Mindy Project" class="filme"></a>
+
+                </div>
+               
+          
+        </section>
+
+        <section class="divSeries">
+            <h3>Romance</h3>
+                <div class="filme-grid">
+                    <a href="series-romance/serie-1.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/81/204119.jpg" alt="Reign" class="filme"></a>
+                    <a href="series-romance/serie-2.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/88/220908.jpg" alt="The Vampire Diaries" class="filme"></a>
+                    <a href="series-romance/serie-3.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/392.jpg" alt="Witches of East End" class="filme"></a>
+                    <a href="series-romance/serie-4.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/166/415045.jpg" alt="Outlander" class="filme"></a>
+                    <a href="series-romance/serie-5.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/73.jpg" alt="Glee" class="filme"></a>
+                    <a href="series-romance/serie-6.html"><img src="http://static.tvmaze.com/uploads/images/original_untouched/0/15.jpg" alt="Bitten" class="filme"></a>
+                </div>
+                
+        </section>
+        
+    </main>
+    <script src="js1.js"></script>
+</body>
+</html>
